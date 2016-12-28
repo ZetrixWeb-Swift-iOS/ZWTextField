@@ -6,9 +6,9 @@ Welcoming all Xcoders!
 
 As we all know, Apple released an awesome features like IBInspectable and IBDesignable with Xcode 6. These features are very useful to create application designs easily. It provides live support for creating application design with different property which we had to add earlier via code in property list. Now we can see live effect of all the property and can easily create our designs with live preview using storyboard only. Yes not even a single line of code required.
 
-In this post, we are going to talk about how we can use this feature with UITextField. Here we are going to create different properties for UITextField which are not present in storyboard property list at design time. Here we have created one class file called PJTextField, which has included some properties for textfield and that will be added in storyboard at design time.
+In this post, we are going to talk about how we can use this feature with UITextField. Here we are going to create different properties for UITextField which are not present in storyboard property list at design time. Here we have created one class file called ZWTextField, which has included some properties for textfield and that will be added in storyboard at design time.
 
-Properties in PJTextField:
+Properties in ZWTextField:
 borderColor: It is used to set color of border in UITextField. You can select color from colorpicker.
 borderWidth: It is used to make border thick or thin. We can set itâ€™s value in pixels.
 cornerRadius: It is used make rounded UITextField. We can define radius for corners.
